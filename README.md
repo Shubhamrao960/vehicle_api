@@ -93,11 +93,6 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 - By City: `GET /api/vehicles/search?city=Guwahati`
 - By State: `GET /api/vehicles/search?state=Assam`
 
-## 🧪 Error Responses
-- `404 Not Found` – Vehicle not found
-- `409 Conflict` – Duplicate registration number
-- `400 Bad Request` – Validation errors or missing fields
-
 ## 🏁 Getting Started
 
 ### ✅ Prerequisites
@@ -106,13 +101,6 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 - MySQL running locally
 
 Access the API at: `http://localhost:8080/api/vehicles`
-
-## 📌 Future Enhancements
-- Swagger/OpenAPI documentation
-- Spring Security-based login
-- User-specific vehicle records
-- Docker + Docker Compose
-- React/Angular frontend
 
 ## 🤝 Contributing
 Pull requests are welcome. For major changes, open an issue first to discuss what you'd like to change.
